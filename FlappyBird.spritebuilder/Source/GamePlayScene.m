@@ -16,9 +16,7 @@
     // this will be run every frame.
     // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down
 }
-{
     // put update code here
-}
 
 // put new methods here
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
