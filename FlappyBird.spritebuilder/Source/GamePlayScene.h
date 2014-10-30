@@ -22,6 +22,9 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     CCPhysicsNode* physicsNode;
     float timeSinceObstacle;
 }
+
+
+-(void) initialize;
 // Increment the time since the last obstacle was added
 timeSinceObstacle += delta; // delta is approximately 1/60th of a second
 
@@ -33,9 +36,6 @@ if (timeSinceObstacle > 2.0f)
     
     // Then reset the timer.
     timeSinceObstacle = 0.0f;
-}
-
--(void) initialize;
 -(void) addObstacle;
 -(void) showScore;
 
