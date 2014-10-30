@@ -24,12 +24,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 }
 
 -(void) initialize;
-{    // Add a new obstacle
-    [self addObstacle];
-    
-    // Then reset the timer.
-    timeSinceObstacle = 0.0f;
-}
 -(void) addObstacle;
 -(void) showScore;
 
